@@ -3,7 +3,7 @@ body {
 }
 
 #tech,
-#operations {
+#operations, #degree {
     padding: 1.2%;
     font-size: 1.1em;
 }
@@ -15,26 +15,26 @@ body {
 
 #tech ul li {
     margin-left: 10%;
-    margin-right: 10%;
-}
-
-#tech ul li i {
-    /* padding-top: 2%; */
+    margin-right: 15%;
 }
 
 #operations ul li {
     margin-left: 10%;
-    margin-right: 10%;
+    margin-right: 15%;
     /* padding-left: 5%;
     padding-right: 5%; */
 }
 
 #tech,
 .techInfo {
-    background-color: #D00D2D;
+    background-color: rgba(208, 13, 45, 0.815);
     color: aliceblue;
 }
 
 #operations {
-    background-color: #002E6D;
+    background-color: rgba(0, 45, 109, 0.815);
+}
+
+#degree {
+    background-color: #758592a8;
 }
