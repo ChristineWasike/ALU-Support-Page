@@ -2,7 +2,39 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
-#tech, .techInfo {
+#tech,
+#operations {
+    padding: 1.2%;
+    font-size: 1.1em;
+}
+
+#tech ul,
+#operations ul {
+    margin-left: 20%;
+}
+
+#tech ul li {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#tech ul li i {
+    /* padding-top: 2%; */
+}
+
+#operations ul li {
+    margin-left: 10%;
+    margin-right: 10%;
+    /* padding-left: 5%;
+    padding-right: 5%; */
+}
+
+#tech,
+.techInfo {
     background-color: #D00D2D;
     color: aliceblue;
+}
+
+#operations {
+    background-color: #002E6D;
 }
