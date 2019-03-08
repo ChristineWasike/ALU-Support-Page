@@ -2,40 +2,22 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
-#tech,
-#operations,
-#degree,
-#core {
+#tech, #operations, #degree, #core {
     padding: 1.2%;
     font-size: 1.1em;
 }
 
-#tech ul,
-#operations ul,
-#degree ul,
-#core ul {
+#tech ul, #operations ul, #degree ul, #core ul {
     margin-left: 20%;
 }
 
-#tech ul li {
-    margin-left: 10%;
+#tech ul li, #operations ul li, #degree ul li, #core ul li {
+    text-align: left;
     margin-right: 15%;
+    width: 10rem;
 }
 
-#operations ul li {
-    margin-left: 10%;
-    margin-right: 15%;
-    /* padding-left: 5%;
-    padding-right: 5%; */
-}
-
-#degree ul li {
-    margin-left: 7%;
-    margin-right: 5%;
-}
-
-#tech,
-.techInfo {
+#tech, .techInfo {
     background-color: rgba(208, 13, 45, 0.815);
     color: aliceblue;
 }
