@@ -2,16 +2,25 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
-#tech, #operations, #degree, #core {
+.navbar {
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.team {
+    width: 7em;
+}
+
+#tech, #operations, #degree, #core, #college, #life, #registrar {
     padding: 1.2%;
     font-size: 1.1em;
 }
 
-#tech ul, #operations ul, #degree ul, #core ul {
+#tech ul, #operations ul, #degree ul, #core ul, #college ul, #life ul, #registrar ul {
     margin-left: 20%;
 }
 
-#tech ul li, #operations ul li, #degree ul li, #core ul li {
+#tech ul li, #operations ul li, #degree ul li, #core ul li, #college ul li, #life ul li, #registrar ul li {
     text-align: left;
     margin-right: 15%;
     width: 10rem;
@@ -28,4 +37,16 @@ body {
 
 #degree {
     background-color: #758592a8;
+}
+
+#degreeDropDown {
+    margin-left: 20%;
+}
+
+#core {
+    background-color: #FAB500;
+}
+
+#college {
+    background-color: #00A585;
 }
